@@ -1,20 +1,23 @@
 <html>
 <head>
-    <link rel="stylesheet"
-          type="text/css"
-          href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <p><span id="datetime"></span></p>
+    <p class="full-width"><span id="datetime"></span></p>
     <script>
         var dt = new Date();
         document.getElementById("datetime").innerHTML = dt.toLocaleString();
     </script>
-
-    <span><h1> Bradley Snyder </h1><p>  Developer based in Ohio</p></span>
-    
-    <button type="button" onClick="location.href='?Resume'">Resume PDF</button>
-    <button type="button" onClick="location.href='?About'">More</button>
+    <h3 class="full-width">
+        <div class="wrap">
+            <h1> Bradley Snyder </h1>
+            <p>  Developer based in Ohio</p>
+        </div>
+    </h3>
+    <span style="display: inline;">
+        <button type="button" class="button button1" onClick="location.href='?Resume'">Resume.pdf</button>
+        <button type="button" class="button button2" onClick="location.href='?About'">More</button>
+    </span>
 </body>
 <p> Thanks for coming to my homepage! (made available by AWS) </p>
 </html>

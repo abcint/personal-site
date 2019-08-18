@@ -1,9 +1,38 @@
-﻿span {
-    color: #000000; 
-    cursor: pointer;
+﻿.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    text-align: center;
     text-decoration: none;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {
+    width: 40%;
 }
 
-    span:hover {
-        color: #444444; 
-    }
+.button2 {
+    width: 40%;
+}
+
+header:hover {
+    color: #444444; 
+}
+
+header, .full-width {
+    width: 100%;
+    background: #ccc;
+}
+
+.wrap {
+    width: 80%;
+    max-width: 24em;
+    margin: 0 auto;
+    padding: 0.25em 0.625em;
+    text-align: left;
+}
+
+#datetime { 
+    font-family: Verdana;
+}
