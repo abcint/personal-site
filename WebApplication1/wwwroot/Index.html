@@ -1,24 +1,27 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <p class="full-width"><span id="datetime"></span></p>
-    <script>
-        var dt = new Date();
-        document.getElementById("datetime").innerHTML = dt.toLocaleString();
-    </script>
+    <h3 class="full-width">
+        <div class="wrap2" style="text-align:center;padding-right:175px;">
+            <p><span id="datetime"></span></p>
+            <script>
+                var dt = new Date();
+                document.getElementById("datetime").innerHTML = dt.toLocaleString();
+            </script>
+        </div>
+    </h3>
     <h3 class="full-width">
         <div class="wrap">
             <h1> Bradley Snyder </h1>
-            <p>  Developer based in Ohio</p>
         </div>
     </h3>
     <span style="display: inline;">
-        <button type="button" class="button button1" onClick="location.href='?Resume'">open resume</button>
-        <button class="button button1" type="button" onclick="location.href='http://www.github.com/brs80'">GitHub</button>
+        <button type="button" class="button button1" onClick="location.href='?Resume'">Resume</button>
+        <button class="button button1" type="button" onclick="location.href='http://www.github.com/abcint'">GitHub</button>
     </span>
-    <button type="button" class="button button2" onClick="location.href='?About'">MORE</button>
 </body>
-<p style="font-size:small"> (made available by AWS) </p>
 </html>
